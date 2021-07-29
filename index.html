@@ -16,13 +16,13 @@
         <!-- font-awesome -->
         <script src="https://kit.fontawesome.com/4524e20b32.js"
             crossorigin="anonymous"></script>
-
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <header class="bg-info">
+        <header>
             <!-- nav -->
-
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <div></div>
@@ -45,25 +45,24 @@
                             </li>
                             <li class="nav-item me-4">
                                 <a class="nav-link active"
-                                    href="#">Shop</a>
+                                    href="#shop">Shop</a>
                             </li>
                             <li class="nav-item me-4">
                                 <a class="nav-link active"
-                                    href="#">News</a>
+                                    href="#news">News</a>
                             </li>
                             <li class="nav-item me-4">
                                 <a class="nav-link active"
-                                    href="#">Contact</a>
+                                    href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <button class="btn btn-warning text-white ms-5 px-4">Login</button>
+                        <button class="btn honda-button text-white ms-5 px-4"><p>Login</p></button>
                     </div>
                 </div>
 
             </nav>
 
             <!-- intro -->
-
             <section>
                 <div class="container mt-4">
                     <div class="row pb-5">
@@ -74,12 +73,12 @@
                             <h1 class="text-uppercase">
                                 Honda cbr 300r
                             </h1>
-                            <p>
+                            <p class="detail">
                                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                                 consequat duis enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet.
                             </p>
-                            <button class="btn btn-warning text-white fw-bold px-5 py-2"> Purchase </button>
+                            <button class="btn honda-button text-white fw-bold px-5 py-2"><p>Purchase</p></button>
                         </div>
                         <!-- part -->
                         <div class="col-12 col-md-5 col-lg-6 my-auto mt-5 mt-md-0">
@@ -95,17 +94,17 @@
 
         <main>
             <!-- fetured bikes 2021 -->
-
-            <section>
+            <section id="shop">
                 <div class="container mt-5">
                     <!-- About -->
                     <div class="text-center">
                         <h1>Fetured Bikes 2021</h1>
-                        <small class="text-danger m-0 fw-bold">Best Bike collection</small>
-                        <hr class="text-danger fw-bolder w-25 mx-auto my-0">
+                        <small class="honda-text m-0 fw-bold">Best Bike collection</small>
+                        <hr class="fw-bolder mx-auto my-0">
                     </div>
-                    <!-- blog -->
+                    <!-- bikes -->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-4">
+                        <!-- bike -->
                         <div class="col">
                             <div class="card border-0 p-4">
                                 <img src="images/feature-bike.jpg"
@@ -113,6 +112,7 @@
                                     alt="...">
                             </div>
                         </div>
+                        <!-- bike -->
                         <div class="col">
                             <div class="card border-0 p-4">
                                 <img src="images/feature-bike.jpg"
@@ -120,6 +120,7 @@
                                     alt="...">
                             </div>
                         </div>
+                        <!-- bike -->
                         <div class="col">
                             <div class="card border-0 p-4">
                                 <img src="images/feature-bike.jpg"
@@ -132,12 +133,13 @@
             </section>
 
             <!-- latest news -->
-
-            <section>
+            <section class="section-margin"
+                id="news">
                 <div class="container my-5">
                     <h1 class="text-center mb-5">Latest News</h1>
                     <!-- blogs -->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
                         <!-- blog -->
                         <div class="col">
                             <div class="card h-100 rounded-3 border-0 shadow">
@@ -152,10 +154,11 @@
                                         fermentum amet faucibus sed id nisi lectus at.</p>
                                 </div>
                                 <div class="ms-3 my-3">
-                                    <button class="btn btn-danger text-white px-4">Read More</button>
+                                    <button class="btn honda-button text-white px-4"><p>Read More</p></button>
                                 </div>
                             </div>
                         </div>
+
                         <!-- blog -->
                         <div class="col">
                             <div class="card h-100 rounded-3 border-0 shadow">
@@ -171,10 +174,11 @@
                                         nisi lectus at.</p>
                                 </div>
                                 <div class="ms-3 my-3">
-                                    <button class="btn btn-outline-danger text-danger px-4">Read More</button>
+                                    <button class="btn btn-outline-danger  px-4">Read More</button>
                                 </div>
                             </div>
                         </div>
+
                         <!-- blog -->
                         <div class="col">
                             <div class="card h-100 rounded-3 border-0 shadow">
@@ -190,22 +194,20 @@
                                         nisi lectus at.</p>
                                 </div>
                                 <div class="ms-3 my-3">
-                                    <button class="btn btn-outline-danger text-danger px-4">Read More</button>
+                                    <button class="btn btn-outline-danger  px-4">Read More</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </section>
 
             <!-- client -->
-
-            <section>
+            <section class="section-margin">
                 <div class="container my-5">
                     <!-- about -->
                     <h1 class="fw-bold text-center my-5">
-                        Happy <span class="text-danger">Client says</span>
+                        Happy <span class="honda-text">Client says</span>
                     </h1>
                     <!-- blogs -->
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-md-4">
@@ -308,17 +310,16 @@
             </section>
 
             <!-- FAQ -->
-
-            <section>
+            <section class="section-margin">
                 <div class="container my-5">
                     <h1 class="text-center fw-bold m-5">
-                        Frequently Asked <span class="text-warning">Questions</span>
+                        Frequently Asked <span class="honda-text">Questions</span>
                     </h1>
                     <div class="d-lg-flex align-items-center">
                         <div class="me-lg-5">
                             <img src="images/faq.png"
                                 alt=""
-                                class="w-100">
+                                class="w-100 px-5">
                         </div>
                         <!-- accordion -->
                         <div class="w-100 ms-lg-5 mt-5 mt-lg-0">
@@ -447,7 +448,8 @@
             </section>
         </main>
 
-        <footer class="bg-dark pb-4 mt-5">
+        <footer class="bg-dark pb-4 footer-margin"
+            id="contact">
             <div class="container text-white d-md-flex justify-content-between align-items-center py-5">
                 <div class="w-75 mb-5 mb-md-0">
                     <ul class="d-flex gap-4">
@@ -462,7 +464,7 @@
                         <li class="small">Help</li>
                         <li class="small">Privacy Policy</li>
                     </ul>
-                    <div class="footer ms-3">
+                    <div class="footer ms-4">
                         <small>
                             &#169; 2020 bike. All rights reserved
                         </small>
@@ -470,18 +472,26 @@
                     
                 </div>
                 <!-- part -->
-                <div class="ms-3">
+                <div class="ms-4">
                     <p>Get the App</p>
                     <div>
-                       <button class="btn btn-dark p-0 rounded-3"> 
-                        <img src="images/appstore.png"
-                            alt="">
-                       </button>
-                        <br>
-                        <button class="btn btn-dark p-0 rounded-3 mt-2">
-                            <img src="images/play .jpg"
-                                alt="">
+                       <a href="#">
+                        <button class="btn btn-dark p-0 rounded-3">
+                            <img src="images/appstore.png"
+                                alt=""
+                                class="rounded"
+                                height="40px">
                         </button>
+                       </a>
+                        <br>
+                        <a href="#">
+                            <button class="btn btn-dark p-0 rounded-3 mt-2">
+                                <img src="images/play .jpg"
+                                    alt=""
+                                    class="rounded"
+                                    height="40px">
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
