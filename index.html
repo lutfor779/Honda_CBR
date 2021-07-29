@@ -17,12 +17,15 @@
         <script src="https://kit.fontawesome.com/4524e20b32.js"
             crossorigin="anonymous"></script>
         <!-- css -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"
+            href="css/style.css">
+
     </head>
 
     <body>
         <header>
             <!-- nav -->
+
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <div></div>
@@ -56,13 +59,16 @@
                                     href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <button class="btn honda-button text-white ms-5 px-4"><p>Login</p></button>
+                        <button class="btn honda-button text-white ms-5 px-4">
+                            <p>Login</p>
+                        </button>
                     </div>
                 </div>
 
             </nav>
 
             <!-- intro -->
+
             <section>
                 <div class="container mt-4">
                     <div class="row pb-5">
@@ -78,7 +84,49 @@
                                 consequat duis enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet.
                             </p>
-                            <button class="btn honda-button text-white fw-bold px-5 py-2"><p>Purchase</p></button>
+                            <!-- button -->
+                            <button class="btn honda-button text-white fw-bold px-5 py-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <p>Purchase</p>
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade text-dark"
+                                id="exampleModal"
+                                tabindex="-1"
+                                aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"
+                                                id="exampleModalLabel">HONDA CBR 300R</h5>
+                                            <button type="button"
+                                                class="btn-close"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                The Honda CBR300R is lightweight 249.5–286 cc displacement
+                                                single-cylinder motorcycles made by
+                                                Honda since 2011.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button"
+                                                class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Back</button>
+                                            <button type="button"
+                                                class="btn btn-success text-white fw-bold px-3">
+                                                Purchase
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal -->
                         </div>
                         <!-- part -->
                         <div class="col-12 col-md-5 col-lg-6 my-auto mt-5 mt-md-0">
@@ -94,6 +142,7 @@
 
         <main>
             <!-- fetured bikes 2021 -->
+
             <section id="shop">
                 <div class="container mt-5">
                     <!-- About -->
@@ -133,6 +182,7 @@
             </section>
 
             <!-- latest news -->
+
             <section class="section-margin"
                 id="news">
                 <div class="container my-5">
@@ -154,7 +204,9 @@
                                         fermentum amet faucibus sed id nisi lectus at.</p>
                                 </div>
                                 <div class="ms-3 my-3">
-                                    <button class="btn honda-button text-white px-4"><p>Read More</p></button>
+                                    <button class="btn honda-button text-white px-4">
+                                        <p>Read More</p>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -200,9 +252,11 @@
                         </div>
                     </div>
                 </div>
+
             </section>
 
             <!-- client -->
+
             <section class="section-margin">
                 <div class="container my-5">
                     <!-- about -->
@@ -310,6 +364,7 @@
             </section>
 
             <!-- FAQ -->
+
             <section class="section-margin">
                 <div class="container my-5">
                     <h1 class="text-center fw-bold m-5">
@@ -469,20 +524,20 @@
                             &#169; 2020 bike. All rights reserved
                         </small>
                     </div>
-                    
+
                 </div>
                 <!-- part -->
                 <div class="ms-4">
                     <p>Get the App</p>
                     <div>
-                       <a href="#">
-                        <button class="btn btn-dark p-0 rounded-3">
-                            <img src="images/appstore.png"
-                                alt=""
-                                class="rounded"
-                                height="40px">
-                        </button>
-                       </a>
+                        <a href="#">
+                            <button class="btn btn-dark p-0 rounded-3">
+                                <img src="images/appstore.png"
+                                    alt=""
+                                    class="rounded"
+                                    height="40px">
+                            </button>
+                        </a>
                         <br>
                         <a href="#">
                             <button class="btn btn-dark p-0 rounded-3 mt-2">
@@ -498,7 +553,7 @@
         </footer>
 
 
-        
+
 
 
         <!-- JS -->
