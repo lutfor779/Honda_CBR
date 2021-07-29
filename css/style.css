@@ -1,3 +1,12 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     background: #264653;
 }
@@ -25,10 +34,16 @@ h1{
 .honda-text{
     color: #E76F51;
 }
+
 hr{
     color: #E76F51;
     width: 5%;
     padding: 1px 50px;
+}
+
+/* image filter */
+.gray-img{
+    filter: grayscale(1);
 }
 
 /* client */
@@ -56,3 +71,9 @@ a img:hover {
     border: 1px solid white;
     border-radius: 10px;
 } 
+
+@media only screen and (max-width:668px) {
+    h1{
+        font-size: 36px;
+    }
+}
