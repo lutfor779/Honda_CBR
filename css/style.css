@@ -73,6 +73,9 @@ hr{
 }
 
 /* footer */
+footer{
+    background: #0B0D17;
+}
 ul li{
     list-style: none;
 }
